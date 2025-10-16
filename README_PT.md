@@ -4,7 +4,7 @@
 
 Sistema automatizado para contagem e exportação de BODs (Bulk Order Deeds) do Ultima Online para planilhas Excel.
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 - **Interface gráfica moderna** com tema escuro
 - **Contagem automática** de BODs em sacolas no jogo
@@ -15,7 +15,7 @@ Sistema automatizado para contagem e exportação de BODs (Bulk Order Deeds) do 
 - **Botão para abrir** pasta de exportação
 - **Validação de dados** e tratamento de erros
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Pré-requisitos
 
@@ -48,7 +48,7 @@ Sistema automatizado para contagem e exportação de BODs (Bulk Order Deeds) do 
 - **IDs das sacolas**: Configure no arquivo `bs_config.py` conforme suas sacolas no jogo
 - **Coleções disponíveis**: Verite, Agapite, Gold
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 bodsxlsexport/
@@ -83,7 +83,7 @@ bodsxlsexport/
 - Confirme se há permissões de escrita no diretório
 - Tente selecionar um diretório diferente
 
-## 📊 Formato da Planilha
+## Formato da Planilha
 
 A planilha Excel gerada contém:
 - **Colunas por material e quantidade** (ex: "VERITE 20e", "AGAPITE 15e")
@@ -95,37 +95,12 @@ A planilha Excel gerada contém:
   - 🟡 Amarelo: Gold
   - 🔴 Vermelho: Valores zerados
 
-## 🎮 Compatibilidade
+## Compatibilidade
 
 - **Servidor**: Astraroth (Ultima Online)
 - **Cliente**: UO Stealth
 - **Sistemas**: Windows, macOS, Linux
 
-## 📝 Changelog
-
-### v1.1.0
-- ✨ Interface gráfica moderna com tema escuro
-- ✨ Seleção de diretório de exportação
-- ✨ Status em tempo real
-- ✨ Botão para abrir pasta de exportação
-- ✨ Validação de dados aprimorada
-- ✨ Tratamento de erros melhorado
-- ✨ Interface mais compacta e responsiva
-
-### v1.0.0
-- 🎉 Versão inicial
-- ✨ Contagem automática de BODs
-- ✨ Exportação para Excel
-- ✨ Múltiplas coleções de BODs
-
-## 👨‍💻 Autor
-
-**Feito para Astraroth** - Servidor Ultima Online
-
-## 📄 Licença
+## Licença
 
 Este projeto é de uso livre para a comunidade do Ultima Online.
-
----
-
-*Para suporte ou dúvidas, entre em contato através dos canais oficiais do servidor Astraroth.*
