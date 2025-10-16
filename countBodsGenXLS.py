@@ -183,7 +183,7 @@ def build_ui():
 
     root = tk.Tk()
     root.title("UO BOD Automator XLS Counter Report")
-    root.geometry("500x550")
+    root.geometry("500x400")
     root.configure(bg="#1e1e1e")
     root.resizable(False, False)
 

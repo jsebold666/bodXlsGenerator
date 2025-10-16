@@ -1,5 +1,7 @@
 # BODs XLS Export
 
+![BOD Counter Interface](image.png)
+
 Automated system for counting and exporting BODs (Bulk Order Deeds) from Ultima Online to Excel spreadsheets.
 
 ## 📋 Description
@@ -8,9 +10,12 @@ This project automates the process of counting BODs organized in specific bags i
 
 ## 🎯 Features
 
-- ✅ Automatic BOD counting in configured bags
-- ✅ Excel export with color formatting by material
-- ✅ Simple and intuitive graphical interface
+- ✅ **Modern Dark Theme Interface** - Professional and easy on the eyes
+- ✅ **Automatic BOD counting** in configured bags
+- ✅ **Excel export** with color formatting by material
+- ✅ **Custom export directory** selection
+- ✅ **Real-time status updates** with progress indicators
+- ✅ **One-click folder access** to view generated reports
 - ✅ Support for different material types (Verite, Agapite, Gold, Valorite, Bronze, Copper)
 - ✅ Reports organized by item type (LBOD, COIF, LEGS, TUNIC, ARMS, GLOVES, GORGET, HELM)
 - ✅ Empty cells highlighted in red for easy identification
@@ -96,10 +101,11 @@ Make sure UO Stealth is running and your character is logged into the game.
 
 ### 3. Use the interface
 
-1. **Select the BOD list** you want to count (Verite, Agapite or Gold)
-2. Click **Start** to begin counting
-3. Wait for processing
-4. The Excel file will be generated automatically
+1. **Select export directory** - Click "Browse" to choose where to save reports
+2. **Select the BOD collection** you want to count (Verite, Agapite or Gold)
+3. Click **🚀 Start** to begin counting
+4. **Monitor the status** - Watch real-time progress updates
+5. **Open reports** - Click **📁 Open** to view generated Excel files
 
 ### 4. Locate the report
 
@@ -128,11 +134,12 @@ The generated Excel report contains:
 ```
 bodsxlsexport/
 │
-├── countBodsGenXLS.py      # Main script with GUI
+├── countBodsGenXLS.py      # Main script with modern GUI
 ├── xlsGenerator.py         # Excel spreadsheet generator
 ├── bs_config.py            # Bag configuration and IDs
 ├── requirements.txt        # Project dependencies
-├── README.md              # This file
+├── README.md              # This documentation
+├── image.png              # Interface screenshot
 │
 └── modules/
     ├── common_utils.py    # Utility functions
@@ -184,9 +191,18 @@ This project is open source and available for personal use.
 
 ## 👤 Author
 
-Developed for Ultima Online task automation using UO Stealth.
+Developed for Ultima Online task automation using UO Stealth.  
+Made for **Astraroth** server.
 
 ## 🔄 Changelog
+
+### v1.1.0
+- ✅ **Modern dark theme interface** with professional design
+- ✅ **Custom export directory** selection with browse functionality
+- ✅ **Real-time status updates** with progress indicators
+- ✅ **One-click folder access** to view generated reports
+- ✅ Compact and efficient layout (500x400px)
+- ✅ Enhanced user experience with better error handling
 
 ### v1.0.0
 - ✅ First functional version
