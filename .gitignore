@@ -39,8 +39,6 @@ Thumbs.db
 desktop.ini
 
 # Excel files
-*.xlsx
-*.xls
 
 # Logs
 *.log
