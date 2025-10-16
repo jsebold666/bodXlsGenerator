@@ -4,29 +4,29 @@
 
 Automated system for counting and exporting BODs (Bulk Order Deeds) from Ultima Online to Excel spreadsheets.
 
-## 📋 Description
+## Description
 
 This project automates the process of counting BODs organized in specific bags in Ultima Online, generating detailed reports in Excel format (.xlsx) with visual formatting based on material type (Verite, Agapite, Gold, etc.).
 
-## 🎯 Features
+## Features
 
-- ✅ **Modern Dark Theme Interface** - Professional and easy on the eyes
-- ✅ **Automatic BOD counting** in configured bags
-- ✅ **Excel export** with color formatting by material
-- ✅ **Custom export directory** selection
-- ✅ **Real-time status updates** with progress indicators
-- ✅ **One-click folder access** to view generated reports
-- ✅ Support for different material types (Verite, Agapite, Gold, Valorite, Bronze, Copper)
-- ✅ Reports organized by item type (LBOD, COIF, LEGS, TUNIC, ARMS, GLOVES, GORGET, HELM)
-- ✅ Empty cells highlighted in red for easy identification
+- **Modern Dark Theme Interface** - Professional and easy on the eyes
+- **Automatic BOD counting** in configured bags
+- **Excel export** with color formatting by material
+- **Custom export directory** selection
+- **Real-time status updates** with progress indicators
+- **One-click folder access** to view generated reports
+- Support for different material types (Verite, Agapite, Gold, Valorite, Bronze, Copper)
+- Reports organized by item type (LBOD, COIF, LEGS, TUNIC, ARMS, GLOVES, GORGET, HELM)
+- Empty cells highlighted in red for easy identification
 
-## 📦 Prerequisites
+## Prerequisites
 
 - **Python 3.8 or higher**
 - **UO Stealth** installed and configured
 - **Ultima Online** running
 
-## 🔧 Installation
+## Installation
 
 ### 1. Clone or download the project
 
@@ -86,7 +86,7 @@ full_path = os.path.join("D:\\UOSTEALTH2025\\Scripts\\BodCollector", filename)
 
 Replace with your desired path.
 
-## 🚀 How to Use
+## How to Use
 
 ### 1. Start UO Stealth
 
@@ -97,15 +97,15 @@ Make sure UO Stealth is running and your character is logged into the game.
 1. Open **UO Stealth**
 2. Go to **Script** menu
 3. Click **Open** and select `countBodsGenXLS.py`
-4. Click the **Play** button (▶️) to start the script
+4. Click the **Play** button to start the script
 
 ### 3. Use the interface
 
 1. **Select export directory** - Click "Browse" to choose where to save reports
 2. **Select the BOD collection** you want to count (Verite, Agapite or Gold)
-3. Click **🚀 Start** to begin counting
+3. Click ** Start** to begin counting
 4. **Monitor the status** - Watch real-time progress updates
-5. **Open reports** - Click **📁 Open** to view generated Excel files
+5. **Open reports** - Click ** Open** to view generated Excel files
 
 ### 4. Locate the report
 
@@ -116,7 +116,7 @@ bod_report_YYYYMMDD_HHMMSS.xlsx
 
 Example: `bod_report_20251016_143025.xlsx`
 
-## 📊 Report Format
+## Report Format
 
 The generated Excel report contains:
 
@@ -129,7 +129,7 @@ The generated Excel report contains:
   - 🟡 Yellow: Gold
   - 🔴 Red: Zero quantity (missing)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bodsxlsexport/
@@ -146,71 +146,5 @@ bodsxlsexport/
     └── connection.py      # UO Stealth connection functions
 ```
 
-## 🛠️ Troubleshooting
-
-### Error generating Excel
-
-**Problem:** Permission denied or path not found
-
-**Solution:**
-- Check if the destination directory exists
-- Make sure you have write permissions
-- Adjust the path in `xlsGenerator.py`
-
-### BODs are not counted
-
-**Problem:** Script doesn't find the bags
-
-**Solution:**
-- Verify that bag IDs in `bs_config.py` are correct
-- Make sure bags are on the ground near your character
-- Check the configured distance in the code (default: 50)
-
-### Script doesn't start in UO Stealth
-
-**Problem:** Script fails to load or execute
-
-**Solution:**
-- Ensure Python dependencies are installed
-- Check UO Stealth Python integration is properly configured
-- Verify your character is logged in before running the script
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the project
-2. Create a branch for your feature (`git checkout -b feature/MyFeature`)
-3. Commit your changes (`git commit -m 'Add MyFeature'`)
-4. Push to the branch (`git push origin feature/MyFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available for personal use.
-
-## 👤 Author
-
-Developed for Ultima Online task automation using UO Stealth.  
-Made for **Astraroth** server.
-
-## 🔄 Changelog
-
-### v1.1.0
-- ✅ **Modern dark theme interface** with professional design
-- ✅ **Custom export directory** selection with browse functionality
-- ✅ **Real-time status updates** with progress indicators
-- ✅ **One-click folder access** to view generated reports
-- ✅ Compact and efficient layout (500x400px)
-- ✅ Enhanced user experience with better error handling
-
-### v1.0.0
-- ✅ First functional version
-- ✅ Support for Verite, Agapite and Gold
-- ✅ Excel export with formatting
-- ✅ Graphical interface with Tkinter
-- ✅ Optimized code and clean modules
-
----
 
 **Note:** This project is an automation tool for personal use in Ultima Online. Make sure you comply with the rules of the server where you play.
